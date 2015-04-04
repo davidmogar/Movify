@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Account overview - Movify</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="images/logo.png" alt="Movify logo" />
+            <h1>Movify</h1>
+          </div>
+          <div class="col-sm-8">
+            <ul>
+              <li>Subscribe</li>
+              <li>Help</li>
+              <li><a href="login.html">Log out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="parallax-window medium" data-parallax="scroll" data-image-src="images/parallax/gradient.jpg">
+    <div id="hero" class="container">
+    <h2>Hello David</h2>
+    <p class="lead">This is your account overview panel and you can do almost anything from here. Any problem with your account?</p>
+    <a id="green-button" href="#">Ask for help</a>
+    </div>
+  </div>
+
+  <section id="subscription" class="box">
+    <div class="container">
+      <h3>Upgrade your plan</h3>
+      <div class="alert success">
+        <p>Subscription extended</p>
+      </div>
+      <p class="lead">Your subscription expires on <span class="green">Sep 3, 2016</span>.<p>
+      <p class="lead"> Don't want to wait to update your subscription? You can do it now below.</p>
+
+      <h4>Purchase extension for</h4>
+      <div id="products" class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12 product">
+          <h5>1 month</h5>
+          <p>24.99€</p>
+          <p>All movies you love for one month more. You in?</p>
+
+          <a id="green-button" class="checkout" href="#">Check out</a>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12 product">
+          <h5>3 months</h5>
+          <p>69.97€</p>
+          <p>Not enough? Add 3 months to your subscription</p>
+
+          <a id="green-button" class="checkout" href="#">Check out</a>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12  product">
+          <h5>1 year</h5>
+          <p>260.89€</p>
+          <p>This is just for truly movie lovers. Are you?</p>
+
+          <a id="green-button" class="checkout" href="#">Check out</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="parallax-window tiny" data-parallax="scroll" data-image-src="images/parallax/gradient.jpg"></div>
+
+  <div id="payment-modal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Select a payment method</h4>
+        </div>
+        <div class="modal-body">
+          <p><a href="#"><img src="images/paypal-button.jpg" alt="Paypal checkout logo" /></a></p>
+          <p>- or -</p>
+          <p><a href="#" class="green">Pay through Cajastur with your credit card</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="three columns">
+          <ul>
+            <li>About</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>News</li>
+            <li>Gift</li>
+            <li>Web Player</li>
+          </ul>
+        </div>
+
+        <div class="three columns">
+          <ul>
+            <li>Developers</li>
+            <li>For Brands</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div id="follow-us" class="three columns offset-by-three">
+          <h3>Follow us</h3>
+          <a href="#"><img src="images/twitter.png" alt="Twitter icon" /></a>
+          <a href="#"><img src="images/facebook.png" alt="Facebook icon" /></a>
+        </div>
+      </div>
+
+      <p>@2015 Movify</p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/movify.js"></script>
+</body>
+</html>
